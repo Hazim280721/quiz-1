@@ -7,17 +7,23 @@ int speed;
 
 Scanner s=new Scanner(System.in);
 
-public void setSpec() {
-	System.out.println("Enter model, color, seats, speed: ");
+public void setModel() {
+	System.out.println("Enter models: ");
 	this.model=s.nextLine();
+}
+	public void setColor() {
+	System.out.println("Enter color: ");
 	this.color=s.nextLine();
+	}
+	public void setSeat() {
+    System.out.println("Enter seat: ");	
 	this.seat=s.nextInt();
+	}
+	public void setSpeed() {
+    System.out.println("Enter speed: ");	
 	this.speed=s.nextInt();
 	
-	System.out.println("Model :"+model);
-	System.out.println("Color :"+color);
-	System.out.println("Seats :"+seat);
-	System.out.println("Speed :"+speed+" Kn");
+	
 }
 
 
